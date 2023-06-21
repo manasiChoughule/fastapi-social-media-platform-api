@@ -1,0 +1,8 @@
+services:
+  # A Docker web service
+  - type: web
+    name: "Fastapi social media platform"
+    runtime: python
+    rootDir: webdis
+    Command: bash -c "alembic upgrade head"
+    
