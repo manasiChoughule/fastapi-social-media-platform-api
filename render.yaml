@@ -4,5 +4,5 @@ services:
     name: "Fastapi social media platform"
     runtime: python
     rootDir: webdis
-    Command: bash -c "alembic upgrade head"
+    .dockerCommand: bash -c "alembic upgrade head"
     
